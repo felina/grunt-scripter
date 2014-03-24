@@ -13,7 +13,7 @@ var util = require('util');
 module.exports = function(grunt) {
     // Please see the Grunt documentation for more information regarding task
     // creation: http://gruntjs.com/creating-tasks
-    grunt.registerMultiTask('sails-linker', 'Your task description goes here.', function() {
+    grunt.registerMultiTask('scripter', 'Autoinsert script tags in an html file', function() {
         // Merge task-specific and/or target-specific options with these defaults.
         var options = this.options({
             startTag: '<!--SCRIPTS-->',
